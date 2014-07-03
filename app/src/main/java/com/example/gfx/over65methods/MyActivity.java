@@ -22,5 +22,11 @@ public class MyActivity extends Activity {
         Log.d("XXX", "C3 " + C3.f0());
         Log.d("XXX", "C4 " + C4.f0());
         Log.d("XXX", "C5 " + C5.f0());
+
+        Log.w("XXX", "w");
+        Log.i("XXX", "i");
+        Log.v("XXX", "v");
+        Log.w("XXX", "w");
+        Log.e("XXX", "e");
     }
 }

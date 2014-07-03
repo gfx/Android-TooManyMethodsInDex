@@ -10919,11 +10919,5 @@ public class C3 {
     public static int f10914() { return 10914; }
     public static int f10915() { return 10915; }
     public static int f10916() { return 10916; }
-    public static int f10917() { return 10917; }
-    public static int f10918() { return 10918; }
-    public static int f10919() { return 10919; }
-    public static int f10920() { return 10920; }
-    public static int f10921() { return 10921; }
-    public static int f10922() { return 10922; }
 
 }
