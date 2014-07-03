@@ -20,7 +20,7 @@ android {
 }
 
 dependencies {
-    //compile 'com.google.guava:guava:+'
-    //compile 'com.google.android.gms:play-services:+'
-    //compile 'org.apache.commons:commons-lang3:+'
+    compile 'com.google.guava:guava:+'
+    compile 'com.google.android.gms:play-services:+'
+    compile 'org.apache.commons:commons-lang3:+'
 }

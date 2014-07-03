@@ -20,7 +20,7 @@ allprojects {
 
 for (int c = 0; c < 6; c++) {
         def s = new StringBuilder()
-        for (int i = 0; i < ((0xFFFF - 33) / 6); i++) {
+        for (int i = 0; i < ((0xFFFF - 100) / 6); i++) {
             s.append("    public static int f${i}() { return ${i}; }\n")
         }
 

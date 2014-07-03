@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
+import com.google.android.gms.common.GooglePlayServicesUtil;
+
 
 public class MyActivity extends Activity {
 
@@ -16,17 +18,6 @@ public class MyActivity extends Activity {
         TextView textView = (TextView) findViewById(R.id.text);
         textView.setText("Over 65k Methods!");
 
-        Log.d("XXX", "C0 " + C0.f0());
-        Log.d("XXX", "C1 " + C1.f0());
-        Log.d("XXX", "C2 " + C2.f0());
-        Log.d("XXX", "C3 " + C3.f0());
-        Log.d("XXX", "C4 " + C4.f0());
-        Log.d("XXX", "C5 " + C5.f0());
-
-        Log.w("XXX", "w");
-        Log.i("XXX", "i");
-        Log.v("XXX", "v");
-        Log.w("XXX", "w");
-        Log.e("XXX", "e");
+        Log.d("XXX", "" + GooglePlayServicesUtil.isGooglePlayServicesAvailable(this));
     }
 }

@@ -10908,16 +10908,5 @@ public class C5 {
     public static int f10903() { return 10903; }
     public static int f10904() { return 10904; }
     public static int f10905() { return 10905; }
-    public static int f10906() { return 10906; }
-    public static int f10907() { return 10907; }
-    public static int f10908() { return 10908; }
-    public static int f10909() { return 10909; }
-    public static int f10910() { return 10910; }
-    public static int f10911() { return 10911; }
-    public static int f10912() { return 10912; }
-    public static int f10913() { return 10913; }
-    public static int f10914() { return 10914; }
-    public static int f10915() { return 10915; }
-    public static int f10916() { return 10916; }
 
 }
