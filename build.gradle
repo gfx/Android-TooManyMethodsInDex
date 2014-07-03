@@ -1,0 +1,35 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.12.+'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+for (int c = 0; c < 6; c++) {
+        def s = new StringBuilder()
+        for (int i = 0; i < (0xFFFF / 6); i++) {
+            s.append("    public static int f${i}() { return ${i}; }\n")
+        }
+
+        def javaFile = file("app/src/main/java/com/example/gfx/over65methods/C${c}.java")
+        javaFile.write("""
+package com.example.gfx.over65methods;
+
+public class C${c} {
+$s
+}
+""")
+}
